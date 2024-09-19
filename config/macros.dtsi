@@ -1,3 +1,15 @@
+macro_umlaut_u: macro_umlaut_u{
+compatible = "zmk,behavior-macro";
+label = "macro_umlaut_u";
+#binding-cells = <0>;
+bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N5>, <&kp KP_N2>, <&kt RALT>;
+};
+macro_umlaut_o: macro_umlaut_o{
+compatible = "zmk,behavior-macro";
+label = "macro_umlaut_o";
+#binding-cells = <0>;
+bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N4>, <&kp KP_N6>, <&kt RALT>;
+};
 macro_umlaut_a: macro_umlaut_a{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a";
