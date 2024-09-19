@@ -2,7 +2,7 @@ macro_umlaut_a: macro_umlaut_a{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N2>, <&kp KP_N8>;
+bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N2>, <&kp KP_N8>, <&kt RALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
