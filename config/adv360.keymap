@@ -53,19 +53,19 @@
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp A>, <&umla>;
-        mods = <(MOD_RCTRL)>;
+        mods = <(MOD_RCTL)>;
     };
     O_mod: O_umlaut_o {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp O>, <&umlo>;
-        mods = <(MOD_RCTRL)>;
+        mods = <(MOD_RCTL)>;
     };
     U_mod: U_umlaut_u {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp U>, <&umlu>;
-        mods = <(MOD_RCTRL)>;
+        mods = <(MOD_RCTL)>;
     };
   };
 
@@ -85,7 +85,7 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3   &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB    &kp SQT &kp COMMA   &kp DOT      &kp P   &kp Y     &kp PRINTSCREEN                                                                 &none   &none   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp FSLH
   &kp CAPS      &kp A     &kp O     &kp E      &kp U   &kp I             &kp ESC  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &none   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS   &kp BSLH
  &kp LSHFT   &kp SEMI     &kp Q     &kp J      &kp K   &kp X                                  &kp INS                  &kp PG_UP                         &none   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
