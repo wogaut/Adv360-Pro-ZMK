@@ -35,19 +35,19 @@
     umla: umlaut_a {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&macro_umlaut_a>, <&macro_umlaut_a_caps>;
+        bindings = <&macro_umlaut_a>, <&macro_umlaut_a_cap>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     umlo: umlaut_o {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&macro_umlaut_o>, <&macro_umlaut_o_caps>;
+        bindings = <&macro_umlaut_o>, <&macro_umlaut_o_cap>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     umlu: umlaut_u {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&macro_umlaut_u>, <&macro_umlaut_u_caps>;
+        bindings = <&macro_umlaut_u>, <&macro_umlaut_u_cap>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
