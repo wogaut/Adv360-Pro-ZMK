@@ -32,6 +32,24 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    umla: umlaut_a {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&macro_umlaut_a>, <&macro_umlaut_a_caps>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    umlo: umlaut_o {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&macro_umlaut_o>, <&macro_umlaut_o_caps>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    umlu: umlaut_u {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&macro_umlaut_u>, <&macro_umlaut_u_caps>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 
     keymap {
@@ -62,7 +80,7 @@
             bindings = <
  &kp F1           &kp F2           &kp F3  &kp F4           &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans           &trans           &trans  &trans           &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &macro_umlaut_a  &macro_umlaut_o  &trans  &macro_umlaut_u  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans           &umla            &umlo   &trans           &umlu   &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans           &trans           &trans  &trans           &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
  &trans           &trans           &trans  &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
