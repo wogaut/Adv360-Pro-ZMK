@@ -2,7 +2,10 @@ macro_umlaut_a_cap: macro_umlaut_a_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a_cap";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N4>, <&kp KP_N2>, <&kt RALT>;
+bindings
+      = <&macro_press &kp LALT>
+      , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N2>
+      , <&macro_press &kp LALT>;
 };
 macro_umlaut_o_cap: macro_umlaut_o_cap{
 compatible = "zmk,behavior-macro";
