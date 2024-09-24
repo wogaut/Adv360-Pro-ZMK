@@ -2,37 +2,37 @@ macro_umlaut_a_cap: macro_umlaut_a_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a_cap";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N9>, <&kp KP_N6>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N4>, <&kp KP_N2>, <&kt RALT>;
 };
 macro_umlaut_o_cap: macro_umlaut_o_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_o_cap";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N1>, <&kp KP_N4>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N5>, <&kp KP_N3>, <&kt RALT>;
 };
 macro_umlaut_u_cap: macro_umlaut_u_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_u_cap";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_NUMBER_2>, <&kp KP_N0>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N5>, <&kp KP_N4>, <&kt RALT>;
 };
 macro_umlaut_u: macro_umlaut_u{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_u";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N5>, <&kp KP_N2>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N2>, <&kp KP_N9>, <&kt RALT>;
 };
 macro_umlaut_o: macro_umlaut_o{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_o";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N4>, <&kp KP_N6>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N4>, <&kp KP_N8>, <&kt RALT>;
 };
 macro_umlaut_a: macro_umlaut_a{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a";
 #binding-cells = <0>;
-bindings = <&kt RALT>, <&kp KP_N2>, <&kp KP_N2>, <&kp KP_N8>, <&kt RALT>;
+bindings = <&kt RALT>, <&kp KP_N1>, <&kp KP_N3>, <&kp KP_N2>, <&kt RALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
