@@ -6,7 +6,8 @@ bindings
       = <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N2>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_umlaut_o: macro_umlaut_o{
 compatible = "zmk,behavior-macro";
@@ -16,7 +17,8 @@ bindings
       = <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N8>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_umlaut_u: macro_umlaut_u{
 compatible = "zmk,behavior-macro";
@@ -26,37 +28,47 @@ bindings
       = <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N9>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_umlaut_a_cap: macro_umlaut_a_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_a_cap";
 #binding-cells = <0>;
 bindings
-      = <&macro_release &kp RCTL>
+      = <&macro_release &kp RSHFT>
+      , <&macro_release &kp LSHFT>
+      , <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N2>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_umlaut_o_cap: macro_umlaut_o_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_o_cap";
 #binding-cells = <0>;
 bindings
-      = <&macro_release &kp RCTL>
+      = <&macro_release &kp RSHFT>
+      , <&macro_release &kp LSHFT>
+      , <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N3>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_umlaut_u_cap: macro_umlaut_u_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_umlaut_u_cap";
 #binding-cells = <0>;
 bindings
-      = <&macro_release &kp RCTL>
+      = <&macro_release &kp RSHFT>
+      , <&macro_releasa &kp LSHFT>
+      , <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N4>
-      , <&macro_release &kp LALT>;
+      , <&macro_release &kp LALT>
+      , <&macro_press &kp RCTL>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
