@@ -4,6 +4,7 @@
 date=$(date -u +"%Y%m%d")
 branch=${1:-$(git rev-parse --abbrev-ref HEAD | cut -c1-4)}
 commit=${2:-$(git rev-parse --short HEAD)}
+author=$("WOGAUT")
 
 uppercase_char() {
     local char=$1
@@ -47,9 +48,15 @@ formatted_commit=""
 for ((i = 0; i < ${#commit}; i++)); do
     formatted_commit+=$(transform_char "${commit:$i:1}")
 done
+formatted_commit+="<&kp SPACE>, "
+
+formatted_author=""
+for ((i = 0; i < ${#author}; i++)); do
+    formatted_author+=$(transform_char "${author:$i:1}")
+done
 
 # Combine the formatted string, add trailing carriage return
-formatted_result="$formatted_date$formatted_branch$formatted_commit"
+formatted_result="$formatted_date$formatted_branch$formatted_commit$formatted_author"
 formatted_result+="<&kp RET>"
 
 echo $formatted_result
