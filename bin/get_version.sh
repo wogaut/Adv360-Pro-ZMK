@@ -4,7 +4,7 @@
 date=$(date -u +"%Y%m%d")
 branch=${1:-$(git rev-parse --abbrev-ref HEAD | cut -c1-4)}
 commit=${2:-$(git rev-parse --short HEAD)}
-author="WOGAUT (Dvorak)"
+author="WOGAUT.Dvorak"
 
 uppercase_char() {
     local char=$1
