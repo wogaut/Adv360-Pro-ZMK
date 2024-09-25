@@ -63,7 +63,7 @@ label = "macro_umlaut_u_cap";
 #binding-cells = <0>;
 bindings
       = <&macro_release &kp RSHFT>
-      , <&macro_releasa &kp LSHFT>
+      , <&macro_release &kp LSHFT>
       , <&macro_release &kp RCTL>
       , <&macro_press &kp LALT>
       , <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N4>
